@@ -51,6 +51,12 @@ And we include the following commands as above to install MongoDB.
 of the previous provision, we can alter the path to our environment folder so that both `provision.sh` can be included.
 - But we use `provisiondb.sh`
 
+- We also configure our `vagrant file' to add our provision path.
+
+`db.vm.provision "shell", path: "provisiondb.sh"`
+
+<img width="629" alt="Configure_provisiondb" src="https://user-images.githubusercontent.com/126012715/233117862-2ef8c48b-a0ae-49a3-a12a-03ef79367549.png">
+
 <h3>Step 2</h3>
 
 - Now we navigate to the VS code terminal and inside the virtualisation folder we `vagrant up db` to only run the db VM.
