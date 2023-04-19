@@ -2,6 +2,8 @@
 
 MongoDB is a open source document-oriented NoSQL database program and stores data such like JSON. Provides high performance, scalability and flexibility to applications. It also allows developers to store data without the pre-defined data structure which is very dynamic. The model allows developers to store and retrieve data in a intuitive way. They use sharding to manage data, which breaks up it up in horizontal pieces.
 
+
+
 <h2>What are NoSQL databases? How do they differ from SQL?</h2>
 
 - Non-relational databases to store and manage data.
