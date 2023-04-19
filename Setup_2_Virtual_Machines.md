@@ -4,7 +4,7 @@
 
 - Configuring our provision.sh so we don't encount any errors when we `vagrant up`.
 
-<img width="635" alt="Vagrant_configure_2_VMs" src="https://user-images.githubusercontent.com/126012715/233084823-fd1e3028-51b1-432e-830f-80b9e306563d.png">
+<img width="617" alt="New_provision_2vms" src="https://user-images.githubusercontent.com/126012715/233084939-f8b72d58-99c2-472b-8fa3-a71b126ae5c4.png">
 
 - Making sure we do not have npm start running.
 
