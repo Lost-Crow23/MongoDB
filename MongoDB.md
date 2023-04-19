@@ -1,8 +1,6 @@
 <h1>What is MongoDB? </h1>
 
-MongoDB is a open source document-oriented NoSQL database program and stores data such like JSON. Provides high performance, scalability and flexibility to 
-applications. It also allows developers to store data without the pre-defined data structure which is very dynamic. The model allows developers to store and 
-retrieve data in a intuitive way. They use sharding to manage data.
+MongoDB is a open source document-oriented NoSQL database program and stores data such like JSON. Provides high performance, scalability and flexibility to applications. It also allows developers to store data without the pre-defined data structure which is very dynamic. The model allows developers to store and retrieve data in a intuitive way. They use sharding to manage data, which breaks up it up in horizontal pieces.
 
 <h2>What are NoSQL databases? How do they differ from SQL?</h2>
 
@@ -19,7 +17,7 @@ retrieve data in a intuitive way. They use sharding to manage data.
 - Easy integration, consists of drivers and connectors for many programming langauges and platforms.
 - Cloud based, an atlas of database service, which MongoDB is properly managed within it's deployment on AWS, Google cloud and Azure.
 
-What is seeding in MongoDB? Why do Mongo databases need to be seeded? 
+<h2>What is seeding in MongoDB? Why do Mongo databases need to be seeded?</h2>
 
 - Refers to the process of initializing a database with predefined data used for testing or development.
 - Seed data can be created using MongoDB's shell or client libraries or importing data from a JSON file.
@@ -28,8 +26,13 @@ What is seeding in MongoDB? Why do Mongo databases need to be seeded?
 - Automated using MongoDB Mongoose seeder or MongoDB seeder which creates a seed data from javascript objects.
 - Testing, Development, Migration, Restoration, Demonstration, Performance testing and Integration testing all require for the databases to be seeded.
 
-What port does MongoDB use?
+ <h2>What port does MongoDB use?</h2>
 
-- Port 27017
+- Port 27017 is used by default for client connections but other ports can also be used such as, and depending on the requirements of MongoDB deployment.
+  - port 27018, replica sets of communication.
+  - port 27019, shared communication.
+  - port 28017, web interface
 
-How do you connect to a Mongo database?
+<h2>How do you connect to a Mongo database?</h2>
+
+
