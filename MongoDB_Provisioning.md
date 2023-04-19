@@ -33,7 +33,7 @@ key and any package we download that is signed with it.
 
 - Downloads and installs the latest version of MongoDB
 
-<h2>MongoDB provisiong our db</h2>
+<h2>MongoDB provisioning our db</h2>
 
 <h3>Step 1</h3>
 
