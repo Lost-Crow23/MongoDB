@@ -44,6 +44,8 @@
 
 - Change our xenial ubuntu to bionic in our `vagrant file` so that we have the latest updates in our operating system.
 
+<img width="610" alt="config" src="https://user-images.githubusercontent.com/126012715/233392318-a59e995d-af02-4ac2-8881-c8f185a07fbd.png">
+
 <h3>Step 2</h3>
 
 - Use `vagrant up` to initialise both the VM in our virtual box
@@ -70,7 +72,9 @@ Run the following commands,
 
 `sudo systemctl enable mongod` , Enables the service
 
-`sudo systemctl status mongod` , Checks to see if it is running `acive running` should be visible in terminal
+`sudo systemctl status mongod` , Checks to see if it is running `acive running` should be visible in terminal.
+
+<img width="585" alt="Vagrant ssh db commands" src="https://user-images.githubusercontent.com/126012715/233393154-0e4fd985-3941-44ad-b9b8-183b44e43f4a.png">
 
 <h3>Step 5</h3>
 
@@ -96,18 +100,27 @@ This is our default IP address but in this case, the following IP address has be
 
 `source .bashrc` to update the edited nano file.
 
-`mongodb://192.168.56.150:27017/posts` or
+`mongodb://192.168.56.100:27017/posts` or
 
-`http://192.168.56.150:27017/posts` should be shown.
+`http://192.168.56.100:3000/posts` should be shown.
 
 <h3>Final Iteration</h3>
 
 - On `vagrant ssh app` we `cd` back to the app vm and use, 
 
+<img width="580" alt="npm install" src="https://user-images.githubusercontent.com/126012715/233393813-4bceb586-f547-4f83-aa30-8114d18f1209.png">
+
 `npm install` or `npm start`
+
+`node seeds/seed.js`
+
+`node app.js`
+
+<img width="588" alt="vagrant_app_commands" src="https://user-images.githubusercontent.com/126012715/233394117-c7004235-fdb6-4edf-bcba-b06cd6f5bc4e.png">
 
 - Copy the IP link onto browser and should work perfectly.
 
+<img width="1428" alt="Final screenshot" src="https://user-images.githubusercontent.com/126012715/233394320-582ff51e-5a6b-4ae8-8046-c8701445671c.png">
 
 
 
