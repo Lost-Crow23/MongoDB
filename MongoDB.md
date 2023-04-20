@@ -37,4 +37,11 @@ MongoDB is a open source document-oriented NoSQL database program and stores dat
 
 <h2>How do you connect to a Mongo database?</h2>
 
+To connect to the database, a MongoDB driver has to be installed, which is a driver that allows you to edit using various programming languages.
+Depending on driver, specific steps are to be followed, however in general these steps as below are to be followed.
 
+- Install MongoDB driver through a package manager such as `npm` Node.js
+- Import MongoDB driver onto your code.
+- Define the URL, includes server address, database name and port.
+- Connect using the driver's connection method passing the URL to the database.
+- Should be connected now!
