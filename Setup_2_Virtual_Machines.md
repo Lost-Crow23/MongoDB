@@ -122,13 +122,13 @@ This is our default IP address but in this case, the following IP address has be
 
 <img width="1428" alt="Final screenshot" src="https://user-images.githubusercontent.com/126012715/233394320-582ff51e-5a6b-4ae8-8046-c8701445671c.png">
 
-MongoDB via db provision file
+<h1>MongoDB via db provision file</h1>
 
 Now we edit our mongod.conf to initialise our IP address so we don't have to write the commands on our db git bash.
 
 `vagrant up` to destroy the running VMs.
 
-Step 1 
+<h3>Step 1</h3>
 
 - Edit our provisiondb.sh file to bypass the entering of our IP address on our git bash mongod.conf file. Use command:
 
@@ -143,15 +143,15 @@ Step 1
 This code lets you automate the IP address. This command executes the bindIP line in mongod.conf file to allow MongoDB to accept connections from any IP
 address. `sed` is used to replace anything within the file. 
 
-Step 2
+<h3>Step 2</h3>
 
 - Run the provisiondb.sh script using `vagrant up` 
 
-Step 3
+<h3>Step 3</h3>
 
 - `cd` onto the app VM and on your git bash terminal. Follow the commands as above in the git bash terminal.
 
-Final Iteration
+<h3>Final Iteration</h3>
 
 - Copy and paste the provision.sh IP address with port 3000 and now your in the Sparta Post.
 
